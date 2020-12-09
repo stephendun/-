@@ -1,0 +1,6 @@
+<!--pages/day/day.wxml-->
+<view class='background'>
+<text>{{text}}</text>
+<text></text>
+<text class="sed">每日一温馨，生活更舒心！</text>
+</view>

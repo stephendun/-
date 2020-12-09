@@ -1,0 +1,14 @@
+<!--start.wxml-->
+<view class='background'>
+ <view class="intro">
+  九月授衣：为您量身制作的天气管家
+</view>
+
+<button class="btn1" bindtap="navigate">查看天气变化趋势</button>
+
+<view class="btnWrapper">
+  <button class="btn2" bindtap="jump">美言</button>
+  <button class="btn2" bindtap="wenzi">BMI指数</button>
+  <button class="btn2" bindtap="jump2">反馈</button>
+</view>
+</view>

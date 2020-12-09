@@ -1,0 +1,31 @@
+/* pages/day/day.wxss */
+text{
+  color: antiquewhite;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+}
+.background{
+  background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606925591271&di=33623498eb4ae8132a64c5afe26753a2&imgtype=0&src=http%3A%2F%2Fup.moxiu.me%2Fpic_source%2F3d%2F3b%2F92%2F3d3b9240d3cf10431a22ee31cedab9d0.jpg);
+  width: 100%;
+  height: 70%;
+  padding-top: 174rpx;
+  padding-bottom: 250rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sed{
+  color:pink;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  line-height: 70px;
+  position: fixed;
+  text-align: center;
+  bottom: 30rpx;
+  left: 0;
+  right: 0;
+
+
+}

@@ -1,0 +1,88 @@
+/* pages/index/index.wxss */
+/* start.wxss */
+
+.btn1 {
+  width: 60%;
+  top: 10%;
+}
+
+.radio-group {
+  left: 30%;
+  top: 30%;
+  position: absolute;
+}
+
+#input {
+  background-color: #e5e5e5;
+  width: 60%;
+  height: 88rpx;
+  top: 45%;
+  left: 18%;
+  position: absolute;
+}
+#input1 {
+  background-color: #e5e5e5;
+  width: 60%;
+  height: 88rpx;
+  top: 45%;
+  left: 18%;
+  position: absolute;
+}
+
+#text {
+  color: #888888;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  top: 55%;
+  left: 17%;
+  position: absolute;
+}
+
+#btn3 {
+  position: absolute;
+  height: 88rpx;
+  top: 60%;
+  left: 19%;
+  width: 60%;
+  color: white;
+  background-color: #00aea1;
+}
+.background{
+  background-image:url(http://m.qpic.cn/psc?/V53oVTZ43zeWP91RfEPF42QA9Q4S2cV3/ruAMsa53pVQWN7FLK88i5hoqNz5R2iH6uv7aVj4QhViTcqVgqsANG7H6F0pCOd9q5pQ351LLcH1yDOOAGq1sZsrOwFiJQ0AL0XgYUb*TwtA!/b&bo=CwOfAQAAAAABB7Y!&rf=viewer_4);
+  width: 100%;
+  height: 80%;
+  padding-top: 20px;
+  padding-bottom: 250rpx;
+  /* background-repeat: no-repeat; */
+  background-size: 100% ;
+}
+.weui-input{
+  color: #fff;
+  border: 1px solid #dad0d0;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 12px;
+  height: 30px;
+  padding-left: 10px;
+}
+.weui-cells__title{
+  color: #fff;
+  margin: 10px 20px;
+}
+.btn{
+  margin-top: 15px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.qq{
+  color: #fff;
+  margin: 10px 0;
+  padding: 0 30px;
+}
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}

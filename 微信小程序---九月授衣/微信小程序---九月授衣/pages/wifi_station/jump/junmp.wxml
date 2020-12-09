@@ -1,0 +1,26 @@
+<!--pages/wifi_station/jump/junmp.wxml-->
+<view class='background'>
+  <view class="txt">当前环境指标</view>
+  <view>
+    <view><text class="text1">温度：{{text1}}</text></view>
+    <view><text class="text2">湿度：{{text2}}</text> </view>
+  </view>
+  <view wx:if="{{text1>20}}">
+  <image class="warm" src="../../../images/w.jpg"></image>
+  <text></text>
+  <text class="tes">~~~天气炎热，请您注意防暑降温，做好防晒措施，避免剧烈户外活动，注意休息！</text>
+  
+  </view>
+  <view wx:if="{{text2>5}}"> 
+<text class="tes">~~~当前环境中空气相对湿度较大，短时间降雨概率较大，请您带好雨具！</text>
+  </view>
+  <view wx:if="{{text1<20}}">
+    <image class="cold" src="../../../images/c.jpg"></image>
+    <text class="tes">~~~~天气寒冷，请您注意增添衣物，做好保暖措施，运动前要充分热身，避免受伤！</text>
+  </view>
+  <text></text>
+  <view wx:if="{{text2<5}}"> 
+<text class="tes">~~~当前环境中空气相对湿度较低，空气比较干燥，请适宜增加饮水量，避免皮肤干燥!</text>
+  </view>
+  <button class="jump" bindtap="jump">查看最近天气变化趋势</button>
+</view>

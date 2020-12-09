@@ -1,0 +1,8 @@
+<!--pages/reback/reback.wxml-->
+<view class='background'>
+  <textarea id="input" placeholder="请输入您的反馈意见" placeholder-style="font-size:15px; color:#bfbfbf;" value="{{textarea}}"
+    style="border:1px solid #919191;font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx;height:150px;width:90%;margin:0 auto;padding:10px"
+    bindinput="change" ></textarea>
+
+  <button id="btn3" style="opacity: {{opacity}}" disabled="{{disabled}}" bindtap="send">发送请求</button>
+</view>

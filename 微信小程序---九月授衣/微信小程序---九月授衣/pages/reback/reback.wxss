@@ -1,0 +1,20 @@
+/* pages/reback/reback.wxss */
+.background{
+  background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606721840&di=7297f7e3f0742a4779d0680e73bb7b0b&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.people.com.cn%2Fmediafile%2Fpic%2F20180102%2F68%2F8901315942436854588.jpg);
+  width: 100%;
+  height: 70%;
+  padding-top: 174rpx;
+  padding-bottom: 250rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#btn3 {
+  position: absolute;
+  height: 88rpx;
+  top: 60%;
+  left: 19%;
+  width: 60%;
+  color: white;
+  background-color: #00aea1;
+}
